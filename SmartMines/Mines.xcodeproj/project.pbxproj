@@ -42,11 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2F07BB0F0BA39B0C00F2F0EE /* GameMenuController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GameMenuController.h; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 		2F7C9F050BACA53600D905F7 /* SadMine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SadMine.pdf; sourceTree = "<group>"; };
 		2F8CA0EB0B4B051700648278 /* MinefieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinefieldView.h; sourceTree = "<group>"; };
 		2F8CA0EC0B4B051700648278 /* MinefieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinefieldView.m; sourceTree = "<group>"; };
-		2F8CA0F70B4B274700648278 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2F8CA1020B4F197800648278 /* TableIndexList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TableIndexList.h; sourceTree = "<group>"; };
 		2F8CA1030B4F197800648278 /* TableIndexList.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TableIndexList.m; sourceTree = "<group>"; };
 		2F8CA1050B4F1BA400648278 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
@@ -86,8 +83,6 @@
 		2FBC342F0B62830F00299869 /* Mine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Mine.pdf; sourceTree = "<group>"; };
 		2FBC34360B62E2C100299869 /* Stopwatch.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Stopwatch.pdf; sourceTree = "<group>"; };
 		2FBC34380B62F21700299869 /* TransparentMine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TransparentMine.pdf; sourceTree = "<group>"; };
-		2FBC34800B63A28100299869 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/HighScores.nib; sourceTree = "<group>"; };
-		2FBC34820B63A28100299869 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomGame.nib; sourceTree = "<group>"; };
 		2FBC348A0B656CCE00299869 /* Mine.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Mine.icns; path = Icon/Mine.icns; sourceTree = "<group>"; };
 		2FCEC1BB0B83CDE400233FEE /* HighScoresWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HighScoresWindowController.h; sourceTree = "<group>"; };
 		2FCEC1BC0B83CDE400233FEE /* HighScoresWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HighScoresWindowController.m; sourceTree = "<group>"; };
@@ -96,6 +91,11 @@
 		32CA4F630368D1EE00C91783 /* Mines_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mines_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SmartMines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8402B62364C7410004023D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/HighScores.nib; sourceTree = "<group>"; };
+		CC8402B72364C7420004023D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/CustomGame.nib; sourceTree = "<group>"; };
+		CC8402B82364C7420004023D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		CC8402B92364C7450004023D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CC8402BA2364C7450004023D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,7 +254,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1030;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mines" */;
 			compatibilityVersion = "Xcode 2.4";
@@ -262,6 +262,7 @@
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* SmartMines */;
 			projectDirPath = "";
@@ -327,7 +328,7 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				CC8402BA2364C7450004023D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -335,7 +336,7 @@
 		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				CC8402B82364C7420004023D /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -343,7 +344,7 @@
 		2F8CA0F60B4B274700648278 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F8CA0F70B4B274700648278 /* English */,
+				CC8402B92364C7450004023D /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -351,7 +352,7 @@
 		2FBC347F0B63A28100299869 /* HighScores.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2FBC34800B63A28100299869 /* English */,
+				CC8402B62364C7410004023D /* Base */,
 			);
 			name = HighScores.nib;
 			sourceTree = "<group>";
@@ -359,7 +360,7 @@
 		2FBC34810B63A28100299869 /* CustomGame.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2FBC34820B63A28100299869 /* English */,
+				CC8402B72364C7420004023D /* Base */,
 			);
 			name = CustomGame.nib;
 			sourceTree = "<group>";
@@ -373,7 +374,6 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Info.plist;
@@ -404,6 +404,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -424,7 +425,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_FAST_OBJC_DISPATCH = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -433,14 +433,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -460,7 +460,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_FAST_OBJC_DISPATCH = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -468,8 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

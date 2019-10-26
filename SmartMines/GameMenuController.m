@@ -189,10 +189,10 @@ NSString* JbJoinStrings(NSString* separator, NSArray* strings);
         default:
             return;
         }
-        if ([sender state] != NSOnState)
+        if ([sender state] != NSControlStateValueOn)
         {
-            [[self menuItemForGame:mCurrentGame] setState:NSOffState];
-            [sender setState:NSOnState];
+            [[self menuItemForGame:mCurrentGame] setState:NSControlStateValueOff];
+            [sender setState:NSControlStateValueOn];
             [self setCurrentGame:selectedGame];
         }
         else
@@ -211,7 +211,7 @@ NSString* JbJoinStrings(NSString* separator, NSArray* strings);
         [self setCurrentGame:[mGames beginnerGame]];
     NSMenuItem* menuItem = [self menuItemForGame:mCurrentGame];
     if (menuItem)
-        [menuItem setState:NSOnState];
+        [menuItem setState:NSControlStateValueOn];
     [minefieldController applicationDidFinishLaunching:notification];
     [highScoresWindowController setGames:mGames];
 }

@@ -246,7 +246,7 @@ static NSString* EnableKeyboardKey = @"EnableKeyboard";
 
     NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
     [ud setValue:[NSNumber numberWithBool:newState] forKey:EnableKeyboardKey];
-    [keyboardMenuItem setState:newState ? NSOnState : NSOffState];
+    [keyboardMenuItem setState:newState ? NSControlStateValueOn : NSControlStateValueOff];
     [minefieldView setShowKeyboardCursor:newState];
 }
 
@@ -302,7 +302,7 @@ static NSString* EnableKeyboardKey = @"EnableKeyboard";
     NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
     BOOL keyboardCursorState = [[ud valueForKey:EnableKeyboardKey] boolValue];
 
-    [keyboardMenuItem setState:keyboardCursorState ? NSOnState : NSOffState];
+    [keyboardMenuItem setState:keyboardCursorState ? NSControlStateValueOn : NSControlStateValueOff];
     [minefieldView setShowKeyboardCursor:keyboardCursorState];
 }
 
@@ -598,7 +598,7 @@ static NSString* EnableKeyboardKey = @"EnableKeyboard";
 
     NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
     [ud setValue:[NSNumber numberWithBool:newState] forKey:EnableKeyboardKey];
-    [keyboardMenuItem setState:newState ? NSOnState : NSOffState];
+    [keyboardMenuItem setState:newState ? NSControlStateValueOn : NSControlStateValueOff];
 }
 
 - (NSNumber*)isRunning
